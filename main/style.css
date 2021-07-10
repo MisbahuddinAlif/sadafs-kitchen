@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    background-image: url(grass1.png);
+    background-repeat: repeat-x ;
+    
+    
+}
+.head{
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    display: flex;
+}
+.lolo{
+    margin-left: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+.home{
+    margin-left: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: white;
+}
+.sign{
+    padding-left: 700px;
+    color: white;
+    font-size: larger;
+}
+.sign1{
+    padding-left: 15px;
+    color: white;
+    font-size: larger;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.login-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.login-form input, button{
+    font-size: 20px;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+.login-form button{
+    background-color: orange;
+    color: white;
+    font-weight: 700;
+    padding: 5px;
+}
+.para{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 14px;
+}
+.intro{
+    margin-top: 70px;
+}
+.heading{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 2px 2px 2px 2px gray;
+    margin-left: 550px;
+    margin-right: 550px;
+    font-size: 25px;
+}
+.food{
+    border: 2px solid black;
+    width: 610px;
+    margin: 20px;
+    border-radius: 20px;
+    margin-left: 30px;
+    box-shadow: 5px 5px 5px 5px gray;
+    
+    
+}
+.food img{
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.order-button{
+    background-color: darkorange;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+.menu{
+    justify-content: center;
+    display: flex;
+    margin-top: 150px;
+}
+
+    
+
